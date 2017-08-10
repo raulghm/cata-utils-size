@@ -1,0 +1,39 @@
+{
+  "name": "cata-utils-size",
+  "version": "0.1.0-alpha.1",
+  "description": "Cata utils size",
+  "author": {
+    "name": "Raúl Hernández",
+    "email": "raulghm@gmail.com",
+    "url": "https://github.com/raulghm"
+  },
+  "repository": "raulghm/cata-utils-size",
+  "homepage": "https://github.com/raulghm/cata-utils-size#readme",
+  "keywords": [
+    "base",
+    "browser",
+    "css",
+    "suitcss",
+    "style",
+    "utils",
+    "breakpoints",
+    "sizes",
+    "typography",
+    "cata"
+  ],
+  "license": "MIT",
+  "files": [
+    "index.css",
+    "index.js",
+    "lib"
+  ],
+  "style": "index.css",
+  "devDependencies": {
+    "stylelint-config-suitcss": "^11.0.0",
+    "suitcss-components-test": "^1.0.0",
+    "suitcss-preprocessor": "suitcss/preprocessor#master"
+  },
+  "dependencies": {
+    "cata-variables": "^0.1.0-alpha.1"
+  }
+}
